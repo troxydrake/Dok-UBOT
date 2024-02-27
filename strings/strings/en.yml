@@ -167,10 +167,10 @@ afk_5: "**I'm Going AFK.**\n\n**Reason:** `{}`"
 afk_6: "**I'm Going AFK.**"
 
 # bot
-bot_1: "**Hallo, I am RynUbot And I am alive.**"
+bot_1: "Hallo, I am RynUbot And I am alive."
 bot_2: "**Stats**"
-bot_3: "▢ **Owner**"
-bot_4: "**Support** ▢"
+bot_3: "▢ Owner"
+bot_4: "Support ▢"
 bot_5: "▢ **Restarting...**"
 alive_1: "**The Ryn Userbot...**\n\n**{}**\n\n🤴 **Owner** - `{}`\n➻ **RynUbot** - `{}`\n➻ **Py-RynUbot** - `{}`\n➻ **UpTime** - `{}`\n➻ **Python** - `{}`\n➻ **Telethon** - `{}`\n➻ **Branch** - `{}`"
 log: "**Heroku** Ultroid Logs.\nPasted [here]({}) too!"
