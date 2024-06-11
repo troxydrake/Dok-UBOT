@@ -50,8 +50,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("**Owner**", url="https://t.me/Usern4meDoestExist404"),
-        Button.url("**Support**", url="t.me/CariSahabatOnline_Id"),
+        Button.url("**Owner**", url="https://t.me/N0TH4VEUSN"),
+        Button.url("**Support**", url="@Top_Mutualan_Indonesia"),
     ],
 ]
 
@@ -60,10 +60,10 @@ SUP_BUTTONS = [
 
 @in_pattern(owner=True, func=lambda x: not x.text)
 async def inline_alive(o):
-    TLINK = inline_pic() or "https://telegra.ph/file/72095c8ca8ee523ccc177.jpg"
-    MSG = "• **Ryn Userbot •**"
+    TLINK = inline_pic() or "https://telegra.ph/file/6ba69f49285d6bdde7055.jpg"
+    MSG = "• **Dokter Userbot •**"
     WEB0 = InputWebDocument(
-        "https://telegra.ph/file/72095c8ca8ee523ccc177.jpg", 0, "image/jpg", []
+        "https://telegra.ph/file/417ad96c9e8d460018f24.jpg", 0, "image/jpg", []
     )
     RES = [
         await o.builder.article(
@@ -71,7 +71,7 @@ async def inline_alive(o):
             text=MSG,
             include_media=True,
             buttons=SUP_BUTTONS,
-            title="Ryn Userbot",
+            title="Dokter Userbot",
             description="Userbot | Telethon",
             url=TLINK,
             thumb=WEB0,
@@ -195,7 +195,7 @@ async def uptd_plugin(event):
                 help_ += "\n"
     if not help_:
         help_ = f"{file} has no Detailed Help!"
-    help_ += "\n▢ @TeamAllBots"
+    help_ += "\n▢ @Top_Mutualan_Indonesia"
     buttons = []
     if inline_pic():
         data = f"sndplug_{key}_{file}"
@@ -400,7 +400,7 @@ async def ibuild(e):
                             _pic,
                             title="Ubot Op",
                             text=txt,
-                            description="@TeamAllBots",
+                            description="@Top_Mutualan_Indonesia",
                             buttons=btn,
                             link_preview=False,
                         )
@@ -416,7 +416,7 @@ async def ibuild(e):
                         title="Ubot Op",
                         type=_type,
                         text=txt,
-                        description="@TeamAllBots",
+                        description="@Top_Mutualan_Indonesia",
                         include_media=include_media,
                         buttons=btn,
                         thumb=cont,
