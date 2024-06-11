@@ -14,7 +14,7 @@ START = """
 ▢  /help : Get This Message.
 ▢  /repo : Get Bot's Repo..
 
-🧑‍💻 Join **@TeamAllBots**
+🧑‍💻 Join **@Top_Mutualan_Indonesia**
 """
 
 ADMINTOOLS = """✘ **AdminTools** ✘
