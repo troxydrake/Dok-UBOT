@@ -14,21 +14,21 @@ from telethon.errors import (
 from . import LOG_CHANNEL, LOGS, Button, asst, eor, get_string, ultroid_cmd
 
 REPOMSG = """
-▢ **RYN USERBOT** •\n
-▢ **Owner** - [Click Here](https://t.me/Usern4meDoestExist404)
-▢ **Channel** - [Click Here](https://t.me/Rxvthv)
-▢ **Support** - @CariSahabatOnline_Id
+▢ **DOKTER USERBOT** •\n
+▢ **Owner** - [Click Here](https://t.me/N0TH4VEUSN)
+▢ **Channel** - [Click Here](https://t.me/ZannXBumb)
+▢ **Support** - @ctg_id1
 """
 
 RP_BUTTONS = [
     [
-        Button.url(get_string("bot_3"), "https://t.me/Usern4meDoestExist404"),
-        Button.url("**Support Channel**", "https://t.me/Rxvthv"),
+        Button.url(get_string("bot_3"), "https://t.me/N0TH4VEUSN"),
+        Button.url("**Support Channel**", "https://t.me/ZannXBumb"),
     ],
-    [Button.url("**Support Group**", "t.me/CariSahabatOnline_Id")],
+    [Button.url("**Support Group**", "t.me/ctg_id1")],
 ]
 
-ULTSTRING = """▢ **Thanks for Deploying Ryn Userbot!**
+ULTSTRING = """▢ **Thanks for Deploying Dokter Userbot!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
@@ -59,7 +59,7 @@ async def useUltroid(rs):
     msg = await asst.send_message(
         LOG_CHANNEL,
         ULTSTRING,
-        file="https://telegra.ph/file/72095c8ca8ee523ccc177.jpg",
+        file="https://telegra.ph/file/6ba69f49285d6bdde7055.jpg",
         buttons=button,
     )
     if not (rs.chat_id == LOG_CHANNEL and rs.client._bot):
