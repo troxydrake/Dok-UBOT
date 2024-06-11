@@ -29,7 +29,7 @@ if Owner_info_msg is None:
 
 **Message Forwards** - {udB.get_key("PMBOT")}
 
-**RynUbot [v{ultroid_version}](https://t.me/CariSahabatOnline_Id), powered by @Usern4meDoestExist404**
+**DokterUbot [v{ultroid_version}](https://t.me/ctg_id1), powered by @N0TH4VEUSN**
 """
 
 
@@ -68,7 +68,7 @@ async def own(event):
         mention=event.sender.mention, me=inline_mention(ultroid_bot.me)
     )
     if custom_info:
-        msg += "\n\n▢ Powered by **@TeamAllBots**"
+        msg += "\n\n▢ Powered by **@Top_Mutualan_Indonesia**"
     await event.edit(
         msg,
         buttons=[Button.inline("Close", data="closeit")],
