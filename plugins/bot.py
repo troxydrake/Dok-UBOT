@@ -70,21 +70,21 @@ def ULTPIC():
 
 buttons = [
     [
-        Button.url(get_string("bot_3"), "https://t.me/Usern4meDoestExist404"),
-        Button.url(get_string("bot_4"), "t.me/CariSahabatOnline_Id"),
+        Button.url(get_string("bot_3"), "https://t.me/N0TH4VEUSN"),
+        Button.url(get_string("bot_4"), "t.me/ctg_id1"),
     ]
 ]
 
 # Will move to strings
 alive_txt = """
-The Ryn Userbot
+The Dokter Userbot
 
   ▢ Version - {}
-  ▢ Py-RynUbot - {}
+  ▢ Py-DokterUbot - {}
   ▢ Telethon - {}
 """
 
-in_alive = "{}\n\n➻ <b>RynUbot Version -><b> <code>{}</code>\n➻ <b>PyRynUbot -></b> <code>{}</code>\n➻ <b>Python -></b> <code>{}</code>\n➻ <b>Uptime -></b> <code>{}</code>\n➻ <b>Branch -></b>[ {} ]\n\n➻ <b>Join @TeamAllBots</b>"
+in_alive = "{}\n\n➻ <b>DokterUbot Version -><b> <code>{}</code>\n➻ <b>PyDokterUbot -></b> <code>{}</code>\n➻ <b>Python -></b> <code>{}</code>\n➻ <b>Uptime -></b> <code>{}</code>\n➻ <b>Branch -></b>[ {} ]\n\n➻ <b>Join @Top_Mutualan_Indonesia</b>"
 
 
 @callback("alive")
@@ -292,7 +292,7 @@ async def inline_alive(ult):
                     await builder.document(
                         pic,
                         title="Inline Alive",
-                        description="@TeamAllBots",
+                        description="@Top_Mutualan_Indonesia",
                         parse_mode="html",
                         buttons=buttons,
                     )
@@ -338,7 +338,7 @@ async def _(e):
         )
     else:
         await xx.edit(
-            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://t.me/Usern4meDoestExist404/tree/{branch}">[{branch}]</a></strong>',
+            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://t.me/N0TH4VEUSN/tree/{branch}">[{branch}]</a></strong>',
             parse_mode="html",
             link_preview=False,
         )
